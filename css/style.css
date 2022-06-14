@@ -69,7 +69,6 @@ h2 {
     background-size:140%;
     background-repeat: no-repeat;
     background-position:50% 60%;
-    z-index: 99999999;
 }
 
 #about {
@@ -355,7 +354,6 @@ hr {
         background-size:140%;
         background-repeat: no-repeat;
         background-position:50% 60%;
-        z-index: 99999999;
     }
 
     #my-skills {
