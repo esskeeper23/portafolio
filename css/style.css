@@ -1,0 +1,554 @@
+
+body {
+    background-color: #020403;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    overflow: auto;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#home {
+    text-align: center;
+    position: relative;
+    background-image: url(../icons/Group\ 99.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 10%;
+}
+
+.home-image {
+    width: 50vw;
+    max-width: 200px;
+    min-width: 100px;
+}
+
+.home-name {
+    color: #adadad;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.home-status {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    margin: auto;
+}
+
+.home-social {
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.home-icons {
+    display: flex;
+    color: #adadad;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#vector {
+    width: 100%;
+    min-height: 170px;
+    position: relative;
+    background-image: url(../icons/Group\ 98.svg);
+    background-size:140%;
+    background-repeat: no-repeat;
+    background-position:50% 60%;
+    z-index: 99999999;
+}
+
+#about {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 1em;
+}
+
+.about-title {
+    text-align: start;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.about-content {
+    font-size: 16px;
+    font-weight: 400;
+    color: #adadad;
+}
+
+#my-skills {
+    padding-top: 2em;
+    position: relative;
+    background-image: url(../icons/Group\ 97.svg);
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position:110% 1%;
+}
+
+.my-skills-title {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.my-skills-text {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.my-skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.my-skills-icons {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.my-skills-mobile {
+    background-color: #242222ad;
+    border-radius: 50%;
+    padding: 1rem;
+    width: 40px;
+}
+
+.my-skills-motion {
+    background-color: #242222ad;
+    border-radius: 50%;
+    padding: 1rem;
+    width: 40px;
+}
+
+.my-skills-material-design {
+    background-color: #242222ad;
+    border-radius: 50%;
+    padding: 1rem;
+    width: 40px;
+}
+
+.my-skills-web-design {
+    background-color: #242222ad;
+    border-radius: 50%;
+    padding: 1rem;
+    width: 40px;
+}
+
+#experience {
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.experience-summary {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-summary-content {
+    display: flex;
+}
+
+hr {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-color: #adadad;
+}
+
+.experience-summary-year {
+    margin-right: 20%!important;
+    color: #adadad;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.experience-summary-tecnology {
+    font-weight: 500;
+    font-size: 16px;
+    columns: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.experience-summary-academy {
+    font-size: 16px;
+    font-weight: 400;
+    color: #adadad;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+#portafolio-container {
+    width: 90%;
+    margin: auto;
+    padding-top: 5rem;
+    position: relative;
+    background-image: url(../icons/Group\ 97.svg);
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: -7% -0.01%;
+}
+
+.portafolio-img {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+#contact {
+    width: 90%;
+    margin: auto;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.contact-containers {
+    width: 40%;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.contact-phone-icon {
+    width: 40px;
+    border-radius: 50%;
+    padding: 1em;
+    border: 1px solid white;
+}
+
+.contact-email-icon {
+    width: 40px;
+    border-radius: 50%;
+    padding: 1em;
+    border: 1px solid white;
+}
+
+.contact-text {
+    padding: 0;
+    margin: 0.2em;
+    font-size: 18px;
+    font-weight: 500;
+    color: #adadad;
+}
+
+.contact-email {
+    margin: 0;
+    padding: 0.2em;
+    font-size: 16px;
+    font-weight: 400;
+    color: #adadad;
+}
+
+.contact-phone-number {
+    margin: 0;
+    padding: 0.2em;
+    font-size: 16px;
+    font-weight: 400;
+    color: #adadad;
+}
+
+@media ( min-width: 950px) {
+    
+    .home-image {
+        width: 50vw;
+        max-width: 300px;
+        margin-top: 120px;
+    }
+    
+    .home-name {
+        color: #adadad;
+        font-size: 35px;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+    
+    .home-status {
+        color: #ffffff;
+        font-size: 60px;
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+        width: 50%;
+        max-width: 50%;
+        margin: auto;
+    }
+    
+    .home-social {
+        display: flex;
+        justify-content: space-around;
+        width: 20vw;
+        min-width: 300px;
+        margin: 0 auto;
+    }
+    
+    .home-icons {
+        display: flex;
+        color: #adadad;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50px;
+    }
+
+    h2 {
+        color: #ffffff;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    #about {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        padding-top: 5em;
+    }
+    
+    .about-title {
+        text-align: center;
+        font-weight: 500;
+        font-size: 40px;
+    }
+    
+    .about-content {
+        font-size: 20px;
+        width: 80%;
+        margin: auto;
+        font-weight: 400;
+        color: #adadad;
+    }
+
+    #vector {
+        width: 100%;
+        min-height: 370px;
+        position: relative;
+        background-image: url(../icons/Group\ 98.svg);
+        background-size:140%;
+        background-repeat: no-repeat;
+        background-position:50% 60%;
+        z-index: 99999999;
+    }
+
+    #my-skills {
+        width: 100%;
+        margin: auto;
+        position: relative;
+        background-image: url(../icons/Group\ 97.svg);
+        background-size:auto;
+        background-repeat: no-repeat;
+        background-position:102% 1%;
+
+    }
+
+    .my-skills-title {
+        width: 80%;
+        margin: 1em auto;
+    }
+
+    .my-skills-text {
+        font-weight: 400;
+        font-size: 20px;
+    }
+    
+    .my-skills-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 60%;
+        margin: auto;
+    }
+    
+    .my-skills-icons {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 1rem 0;
+    }
+    
+    .my-skills-mobile {
+        background-color: #242222ad;
+        border-radius: 50%;
+        padding: 1rem;
+        width: 60px;
+    }
+    
+    .my-skills-motion {
+        background-color: #242222ad;
+        border-radius: 50%;
+        padding: 1rem;
+        width: 60px;
+    }
+    
+    .my-skills-material-design {
+        background-color: #242222ad;
+        border-radius: 50%;
+        padding: 1rem;
+        width: 60px;
+    }
+    
+    .my-skills-web-design {
+        background-color: #242222ad;
+        border-radius: 50%;
+        padding: 1rem;
+        width: 60px;
+    }
+
+    #experience {
+        width: 60%;
+        margin: auto;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #experience h2 {
+        align-self: center;
+    }
+    
+    .experience-summary {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .experience-summary-content {
+        display: flex;
+    }
+    
+    hr {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-color: #adadad;
+    }
+    
+    .experience-summary-year {
+        margin-right: 20%!important;
+        color: #adadad;
+        font-weight: 400;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .experience-summary-tecnology {
+        font-weight: 500;
+        font-size: 20px;
+        columns: #ffffff;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .experience-summary-academy {
+        font-size: 20px;
+        font-weight: 400;
+        color: #adadad;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+
+    #portafolio-container {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .portafolio-img-container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .portafolio-img {
+        width: 25%;
+    }
+
+    #contact {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .contact-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 40%;
+        margin: auto;
+    }
+    
+    .contact-containers {
+        width: 40%;
+        text-align: center;
+        word-wrap: break-word;
+    }
+    
+    .contact-phone-icon {
+        width: 40px;
+        border-radius: 45%;
+        padding: 1em;
+        border: 1px solid white;
+    }
+    
+    .contact-email-icon {
+        width: 40px;
+        border-radius: 45%;
+        padding: 1em;
+        border: 1px solid white;
+    }
+    
+    .contact-text {
+        padding: 0;
+        margin: 0.2em;
+        font-size: 18px;
+        font-weight: 500;
+        color: #adadad;
+    }
+    
+    .contact-email {
+        margin: 0;
+        padding: 0.2em;
+        font-size: 20px;
+        font-weight: 400;
+        color: #adadad;
+    }
+    
+    .contact-phone-number {
+        margin: 0;
+        padding: 0.2em;
+        font-size: 20px;
+        font-weight: 400;
+        color: #adadad;
+    }
+    
+}
