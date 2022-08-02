@@ -15,7 +15,6 @@ ul, li {
 .drop-nav-bar {
     display: flex;
     flex-wrap: wrap;
-    max-width: 80%;
     margin-left: auto;
     justify-content: end;
 }
@@ -78,5 +77,6 @@ ul, li {
         opacity: 1;
         pointer-events: all;
     }
+
 }
 
